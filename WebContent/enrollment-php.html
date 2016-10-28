@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Enroll for PHP</title>
+</head>
+<body>
+	<h1>Enrollment form for PHP</h1>
+	
+	<form action="EnrollmentPHPServlet" method="get">
+		<table align="center">
+			<tr>
+				<td><label>Trainee Name</label></td>
+				<td><input type="text" name="name" placeholder="Full name" /></td>
+			</tr>
+			<tr>
+				<td><label>PHP Modules</label></td>
+				<td><input type="checkbox" name="pModules"
+					value="PHP Module 1">Module 1</input><br> <input
+					type="checkbox" name="pModules" value="PHP Module 2">Module
+					2</input><br> <input type="checkbox" name="pModules"
+					value="PHP Module 3">Module 3</input><br></td>
+			</tr>
+			<tr>
+				<td align="center"><input type="submit" value="Submit" /></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

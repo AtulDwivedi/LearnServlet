@@ -1,0 +1,10 @@
+/bin
+/build
+/WebContent/WEB-INF/lib
+/WebContentMETA-INF
+.settings
+.project
+.classpath
+/temp
+/log
+/resources/output
