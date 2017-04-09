@@ -35,7 +35,7 @@ public class ServletForListeners extends HttpServlet {
 		ServletContext ctx = getServletContext();
 		ctx.setAttribute("msg", msg);
 		ctx.setAttribute("msg", "My message");
-		ctx.removeAttribute(msg);
+		ctx.removeAttribute("msg");
 		
 		response.setContentType("text/html");
 		PrintWriter out = response.getWriter();

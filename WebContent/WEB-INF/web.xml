@@ -5,9 +5,6 @@
     <param-name>institute</param-name>
     <param-value>Info Campus</param-value>
   </context-param>
- <!--  <listener>
-  <listener-class>com.atuldwivedi.learnservlet.listener.ContextListener</listener-class>
-  </listener> -->
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
     <welcome-file>index.htm</welcome-file>

@@ -33,7 +33,7 @@ public class ContextListener implements ServletContextListener {
 	 */
 	public void contextInitialized(ServletContextEvent arg0) {
 		ServletContext ctx = arg0.getServletContext();
-		System.out.println(this.getClass().getName() + " contextDestroyed "
+		System.out.println(this.getClass().getName() + " contextInitialized "
 				+ ctx);
 	}
 
